@@ -17,7 +17,7 @@ MAX_RECIPES = 10000
 
 # Tarif verilerinin yüklenmesi ve Document formatına dönüştürülmesi
 def create_recipe_documents():
-    file_path = "manual_data/full_dataset.csv"
+    file_path = "data/full_dataset.csv"
     print(f"'{file_path}' dosyası yükleniyor...")
 
     column_names = ['index', 'title', 'ingredients', 'directions', 'link', 'source', 'NER']
