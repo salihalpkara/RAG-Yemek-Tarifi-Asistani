@@ -10,7 +10,7 @@ Projenin temel amacı, kullanıcıların elindeki malzemeleri veya canının çe
 
 Bu projede, [RecipeNLG](https://github.com/Glorf/recipenlg) veri seti temel alınmıştır. RecipeNLG, INLG 2020'de sunulan "RecipeNLG: A Cooking Recipes Dataset for Semi-Structured Text Generation" makalesi için hazırlanmış, 2.2 milyondan fazla yemek tarifi içeren devasa bir koleksiyondur.
 
-Projede, `manual_data/full_dataset.csv` dosyasında veri setinin tamamı bulunmaktadır. Ancak testleri hızlı yapabilmek için, `index_data.py` scripti bu veri setinden yalnızca 10,000 tarifi işleyerek vektör veritabanına kaydeder. Her tarif aşağıdaki gibi yarı yapılandırılmış veriler içerir:
+Projede, `data/full_dataset.csv` dosyasında veri setinin tamamı bulunmaktadır. Ancak testleri hızlı yapabilmek için, `index_data.py` scripti bu veri setinden yalnızca 10,000 tarifi işleyerek vektör veritabanına kaydeder. Yüksek dosya büyüklüğü sebebiyle veri seti bu repo'ya yüklenmemiştir. Her tarif aşağıdaki gibi yarı yapılandırılmış veriler içerir:
 
 - **Title:** Yemeğin adı
 - **Ingredients:** Gerekli malzemelerin listesi
