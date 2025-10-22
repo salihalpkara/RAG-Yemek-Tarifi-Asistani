@@ -60,8 +60,8 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 1.  **Depoyu Klonlayın:**
 
     ```bash
-    git clone <repo-adresi>
-    cd <repo-klasoru>
+    git clone https://github.com/salihalpkara/RAG-Yemek-Tarifi-Asistani
+    cd RAG-Yemek-Tarifi-Asistani
     ```
 
 2.  **Sanal Ortam Oluşturun ve Aktive Edin:**
